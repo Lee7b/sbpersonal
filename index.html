@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    
+    <header>
+    <!-- Navbar -->
+    <nav class="mb-1 navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <a class="navbar-brand" href="#">SB</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+         <li class="nav-item">
+           <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" data-scroll href="#aboutme">About</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" data-scroll href="#skills">Skills</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#contactme">Contact</a>
+         </li>
+        </ul>
+      </div>
+     </nav>
+
+    <!-- Background video -->
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="./img/galaxy2.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 id="myname"></h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!----------------------------------------------------------------------------->
+      
+      <!-- About me section -->
+      <section id="aboutme" class="blue-grey darken-4">
+        <div class="container">
+          <div class="row d-flex align-items-center py-5">
+            <div class="col">
+              <img src="./img/code1.svg" alt="AboutMeImage" style="height: 250px"></img>  
+            </div>
+            <div class="col">
+              <h2 className="text-center"><strong>About me</strong></h2>
+                <p>
+                  Hi, I'm Sam. I am from the great state of Arkansas! I'm a huge Razorback fan and I love nature and spending time with friends and family.
+                  I am currently a mainframe systems programmer, specializing in IBM zEnterprise systems. 
+                  I am also a full stack developer when I'm not working on mainframes. It is my dream to work in the software development/web development field.
+                  I have a computer science background and a passion for programming, problem solving, and learning!
+                  The languages that I use the most on the job right now are JCL (Job Control Language), 
+                  Assembler, and COBOL. My favorite language to use on my personal projects is JavaScript. I also love learning new tools and frameworks
+                  that help make me a better programmer! My plan is to keep working on this website so
+                  I can use it as a gauge to track my progress and skill development. Thanks for
+                  checking me out!      
+                </p>                  
+            </div>
+
+          </div>
+      </section>
+
+    <!----------------------------------------------------------------------------->
+
+      <!-- Skills section -->
+      <section id="skills" class="container">
+
+        <h1 class="text-center">Skills</h1>
+
+        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <li class="list-group-item newactive">
+              <div class="md-v-line"></div><i class="fas fa-code mr-4 pr-3"></i>Languages
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-java mr-5"></i>Java
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-js mr-5"></i>JavaScript
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>C++
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-python mr-5"></i>Python
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-node-js mr-5"></i>NodeJS
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-html5 mr-5"></i>HTML/CSS
+            </li>
+        </ul>
+        <br />
+        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <li class="list-group-item newactive">
+              <div class="md-v-line"></div><i class="fas fa-code mr-4 pr-3"></i>Frameworks
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-node-js mr-5"></i>ExpressJS
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-react mr-5"></i>ReactJS
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-angular mr-5"></i>Angular
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-chevron-right mr-5"></i>Django
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-bootstrap mr-5"></i>Bootstrap
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-database mr-5"></i>MongoDB
+            </li>
+        </ul>
+        <br />
+        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <li class="list-group-item newactive">
+              <div class="md-v-line"></div><i class="fas fa-code mr-4 pr-3"></i>My Toolkit
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Visual Studio
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Eclipse
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>IntelliJ
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Git & GitHub
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Postman
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fab fa-linux mr-5"></i>Linux
+            </li>
+        </ul>
+      </section>
+
+    <!----------------------------------------------------------------------------->
+
+      <!-- Projects section -->
+      <section id="projects">
+
+        <h1 class="text-center">My Projects</h1>
+
+        <div class="container" data-aos="fade-right" data-aos-duration="3000">
+
+          <div class="row"> <!-- Start first row -->
+
+            <div class="col d-flex justify-content-center">
+              <div class="card" style="width:500px">
+                <div class="card-header">sbpersonal</div>
+                <div class="card-body">
+                  <p class="card-text">
+                    My personal website, which I've redone many times now with different frameworks and tools. This is the live site which uses HTML/CSS/JS.
+                  </p>
+                  <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
+                  <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+                </div>
+              </div>
+            </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width:500px">
+              <div class="card-header">sbappv3</div>
+              <div class="card-body">
+                <p class="card-text">
+                  My personal website built with ReactJS front-end and node/express back-end.
+                </p>
+                <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
+                <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End first row -->
+
+        <div class="row"> <!-- Start second row -->
+
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width:500px">
+              <div class="card-header">MEAN Stack Auth App</div>
+              <div class="card-body">
+                <p class="card-text">
+                    MEAN Stack Authentication App
+                </p>
+                <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
+                <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width:500px">
+              <div class="card-header">Java Flappy Bird Clone</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Flappy bird clone written in Java. This was a project I did while I was in school.
+                </p>
+                <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
+                <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End second row -->
+          
+        </div>
+      </section>
+
+    <!----------------------------------------------------------------------------->
+
+      <!-- Contact info section -->
+      <section id="contactme">
+
+        <div class="container">
+          <!-- Jumbotron -->
+          <div class="jumbotron text-center">
+            <!-- Title -->
+            <h4 class="card-title h4 pb-2"><strong>Get in touch</strong></h4>
+    
+            <!-- Card image -->
+            <div class="view overlay my-4">
+              <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+    
+            <h5 class="indigo-text h5 mb-4">Social Media and Contact Information</h5>
+    
+            <p class="card-text">
+              You can reach out to me through social media or email. My email is sburk377@gmail.com. 
+              I will respond as soon as possible. Thank you!
+            </p>
+    
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/in/samuel-burkett/" class="fa-2x p-2 m-2 li-ic"><i class="fab fa-linkedin-in grey-text"></i></a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/sam.burkett.71" class="fa-2x p-2 m-2 tw-ic"><i class="fab fa-facebook grey-text"></i></a>
+            <!-- GitHub -->
+            <a href="https://www.github.com/Lee7b" class="fa-2x p-2 m-2 fb-ic"><i class="fab fa-github grey-text"></i></a>
+          </div>
+          <!-- Jumbotron -->
+        </div>
+
+      </section>
+
+    <!----------------------------------------------------------------------------->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- Get patch fixes within a minor version -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
