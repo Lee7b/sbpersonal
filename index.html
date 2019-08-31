@@ -8,9 +8,6 @@
     <!-- Animations -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
@@ -23,28 +20,28 @@
     <!-- Your custom styles (optional) -->
     <link href="css/styles.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Sam Burkett - Developer</title>
   </head>
 
   <body>
-    
     <header>
     <!-- Navbar -->
+    <section id="home"></section>
     <nav class="mb-1 navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
       <a class="navbar-brand" href="#">SB</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
          <li class="nav-item">
-           <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+           <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" data-scroll href="#aboutme">About</a>
+           <a class="nav-link" href="#aboutme" data-scroll>About</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" data-scroll href="#skills">Skills</a>
+           <a class="nav-link" href="#skills" data-scroll>Skills</a>
          </li>
          <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
@@ -52,6 +49,15 @@
          <li class="nav-item">
             <a class="nav-link" href="#contactme">Contact</a>
          </li>
+        </ul>
+
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/samuel-burkett/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.github.com/Lee7b" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
         </ul>
       </div>
      </nav>
@@ -73,14 +79,15 @@
     <!----------------------------------------------------------------------------->
       
       <!-- About me section -->
-      <section id="aboutme" class="blue-grey darken-4">
+      <section id="aboutme" class="blue-grey darken-4" style="margin-bottom:50px">
+
         <div class="container">
           <div class="row d-flex align-items-center py-5">
             <div class="col">
               <img src="./img/code1.svg" alt="AboutMeImage" style="height: 250px"></img>  
             </div>
             <div class="col">
-              <h2 className="text-center"><strong>About me</strong></h2>
+              <h2 class="text-center"><strong>About me</strong></h2>
                 <p>
                   Hi, I'm Sam. I am from the great state of Arkansas! I'm a huge Razorback fan and I love nature and spending time with friends and family.
                   I am currently a mainframe systems programmer, specializing in IBM zEnterprise systems. 
@@ -93,160 +100,155 @@
                   checking me out!      
                 </p>                  
             </div>
-
           </div>
+
       </section>
 
     <!----------------------------------------------------------------------------->
 
       <!-- Skills section -->
-      <section id="skills" class="container">
+      <section id="skills" class="container" style="margin-bottom:50px">
 
         <h1 class="text-center">Skills</h1>
 
         <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <li class="list-group-item newactive">
-              <div class="md-v-line"></div><i class="fas fa-code mr-4 pr-3"></i>Languages
+              <div class="md-v-line"></div><i class="fas fa-code mr-2 pr-3"></i>Languages
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-java mr-5"></i>Java
+              <div class="md-v-line"></div><i class="fab fa-java mr-3"></i>Java
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-js mr-5"></i>JavaScript
+              <div class="md-v-line"></div><i class="fab fa-js mr-3"></i>JavaScript
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>C++
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-3"></i>C++
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-python mr-5"></i>Python
+              <div class="md-v-line"></div><i class="fab fa-python mr-3"></i>Python
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-node-js mr-5"></i>NodeJS
+              <div class="md-v-line"></div><i class="fab fa-node-js mr-3"></i>NodeJS
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-html5 mr-5"></i>HTML/CSS
+              <div class="md-v-line"></div><i class="fab fa-html5 mr-3"></i>HTML/CSS
             </li>
         </ul>
         <br />
         <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <li class="list-group-item newactive">
-              <div class="md-v-line"></div><i class="fas fa-code mr-4 pr-3"></i>Frameworks
+              <div class="md-v-line"></div><i class="fas fa-code mr-2 pr-3"></i>Frameworks
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-node-js mr-5"></i>ExpressJS
+              <div class="md-v-line"></div><i class="fab fa-node-js mr-3"></i>ExpressJS
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-react mr-5"></i>ReactJS
+              <div class="md-v-line"></div><i class="fab fa-react mr-3"></i>ReactJS
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-angular mr-5"></i>Angular
+              <div class="md-v-line"></div><i class="fab fa-angular mr-3"></i>Angular
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-chevron-right mr-5"></i>Django
+              <div class="md-v-line"></div><i class="fas fa-chevron-right mr-3"></i>Django
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-bootstrap mr-5"></i>Bootstrap
+              <div class="md-v-line"></div><i class="fab fa-bootstrap mr-3"></i>Bootstrap
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-database mr-5"></i>MongoDB
+              <div class="md-v-line"></div><i class="fas fa-database mr-3"></i>MongoDB
             </li>
         </ul>
         <br />
         <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <li class="list-group-item newactive">
-              <div class="md-v-line"></div><i class="fas fa-code mr-4 pr-3"></i>My Toolkit
+              <div class="md-v-line"></div><i class="fas fa-code mr-2 pr-3"></i>My Toolkit
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Visual Studio
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-3"></i>Visual Studio
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Eclipse
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-3"></i>Eclipse
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>IntelliJ
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-3"></i>IntelliJ
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Git & GitHub
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-3"></i>Git & GitHub
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-5"></i>Postman
+              <div class="md-v-line"></div><i class="fas fa-laptop-code mr-3"></i>Postman
             </li>
             <li class="list-group-item">
-              <div class="md-v-line"></div><i class="fab fa-linux mr-5"></i>Linux
+              <div class="md-v-line"></div><i class="fab fa-linux mr-3"></i>Linux
             </li>
         </ul>
+
       </section>
 
     <!----------------------------------------------------------------------------->
 
       <!-- Projects section -->
-      <section id="projects">
+      <section id="projects" style="margin-bottom:50px">
 
         <h1 class="text-center">My Projects</h1>
 
         <div class="container" data-aos="fade-right" data-aos-duration="3000">
-
           <div class="row"> <!-- Start first row -->
-
             <div class="col d-flex justify-content-center">
               <div class="card" style="width:500px">
                 <div class="card-header">sbpersonal</div>
                 <div class="card-body">
                   <p class="card-text">
-                    My personal website, which I've redone many times now with different frameworks and tools. This is the live site which uses HTML/CSS/JS.
+                    My personal website, which I've redone many times now with different frameworks and tools. This is the live site which uses HTML/CSS/JS. 
+                    I'm using Netlify to host it, which is amazing by the way!
                   </p>
-                  <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
-                  <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+                  <a class="btn btn-dark" href="https://github.com/Lee7b/sbpersonal" target="_blank">View Project</a>
+                  <a class="btn btn-dark" href="https://www.samburkett.me" target="_blank">View Live Demo</a>
                 </div>
               </div>
             </div>
 
-          <div class="col d-flex justify-content-center">
-            <div class="card" style="width:500px">
-              <div class="card-header">sbappv3</div>
-              <div class="card-body">
-                <p class="card-text">
-                  My personal website built with ReactJS front-end and node/express back-end.
-                </p>
-                <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
-                <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+            <div class="col d-flex justify-content-center">
+              <div class="card" style="width:500px">
+                <div class="card-header">sbappv3</div>
+                <div class="card-body">
+                  <p class="card-text">
+                    My personal website built with ReactJS front-end and node/express back-end.
+                  </p>
+                  <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3" target="_blank">View Project</a>
+                  <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com" target="_blank">View Live Demo</a>
+                </div>
               </div>
             </div>
-          </div>
+          </div> <!-- End first row -->
 
-        </div> <!-- End first row -->
-
-        <div class="row"> <!-- Start second row -->
-
-          <div class="col d-flex justify-content-center">
-            <div class="card" style="width:500px">
-              <div class="card-header">MEAN Stack Auth App</div>
-              <div class="card-body">
-                <p class="card-text">
-                    MEAN Stack Authentication App
-                </p>
-                <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
-                <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+          <div class="row"> <!-- Start second row -->
+            <div class="col d-flex justify-content-center">
+              <div class="card" style="width:500px">
+                <div class="card-header">MEAN Stack Auth App</div>
+                <div class="card-body">
+                  <p class="card-text">
+                      MEAN Stack Authentication App
+                  </p>
+                  <a class="btn btn-dark" href="https://github.com/Lee7b/MEANStackAuthApp" target="_blank">View Project</a>
+                </div>
               </div>
             </div>
-          </div>
-          
-          <div class="col d-flex justify-content-center">
-            <div class="card" style="width:500px">
-              <div class="card-header">Java Flappy Bird Clone</div>
-              <div class="card-body">
-                <p class="card-text">
-                  Flappy bird clone written in Java. This was a project I did while I was in school.
-                </p>
-                <a class="btn btn-dark" href="https://github.com/Lee7b/sbappv3">View Project</a>
-                <a class="btn btn-dark" href="https://sbpersonal.herokuapp.com">View Live Demo</a>
+            
+            <div class="col d-flex justify-content-center">
+              <div class="card" style="width:500px">
+                <div class="card-header">Java Flappy Bird Clone</div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Flappy bird clone written in Java. This was a project I did while I was in school.
+                  </p>
+                  <a class="btn btn-dark" href="https://github.com/Lee7b/javaFlappyGame" target="_blank">View Project</a>
+                </div>
               </div>
             </div>
-          </div>
-
-        </div> <!-- End second row -->
-          
+          </div> <!-- End second row -->
         </div>
+
       </section>
 
     <!----------------------------------------------------------------------------->
@@ -257,6 +259,7 @@
         <div class="container">
           <!-- Jumbotron -->
           <div class="jumbotron text-center">
+
             <!-- Title -->
             <h4 class="card-title h4 pb-2"><strong>Get in touch</strong></h4>
     
@@ -276,11 +279,11 @@
             </p>
     
             <!-- Linkedin -->
-            <a href="https://www.linkedin.com/in/samuel-burkett/" class="fa-2x p-2 m-2 li-ic"><i class="fab fa-linkedin-in grey-text"></i></a>
+            <a class="fa-2x p-2 m-2 li-ic" href="https://www.linkedin.com/in/samuel-burkett/" target="_blank"><i class="fab fa-linkedin-in grey-text"></i></a>
             <!-- Facebook -->
-            <a href="https://www.facebook.com/sam.burkett.71" class="fa-2x p-2 m-2 tw-ic"><i class="fab fa-facebook grey-text"></i></a>
+            <a class="fa-2x p-2 m-2 tw-ic" href="https://www.facebook.com/sam.burkett.71" target="_blank"><i class="fab fa-facebook grey-text"></i></a>
             <!-- GitHub -->
-            <a href="https://www.github.com/Lee7b" class="fa-2x p-2 m-2 fb-ic"><i class="fab fa-github grey-text"></i></a>
+            <a class="fa-2x p-2 m-2 fb-ic" href="https://www.github.com/Lee7b" target="_blank"><i class="fab fa-github grey-text"></i></a>
           </div>
           <!-- Jumbotron -->
         </div>
