@@ -36,10 +36,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
          <li class="nav-item">
-           <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+           <a class="nav-link" href="#home">Home</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#aboutme" data-scroll>About</a>
+           <a class="nav-link" href="#about" data-scroll>About</a>
          </li>
          <li class="nav-item">
            <a class="nav-link" href="#skills" data-scroll>Skills</a>
@@ -80,9 +80,9 @@
     <!----------------------------------------------------------------------------->
       
       <!-- About me section -->
-      <section id="aboutme" class="blue-grey darken-4" style="margin-bottom:50px">
+      <section id="about" class="blue-grey darken-4" style="margin-bottom:50px">
 
-        <div class="container">
+        <div class="container"> <!-- Container used here so the bg color will be fluid across the page and not have white space on the sides -->
           <div class="row d-flex align-items-center py-5">
             <div class="col">
               <img src="./img/code1.svg" alt="AboutMeImage" style="height: 250px"></img>  
@@ -102,6 +102,7 @@
                 </p>                  
             </div>
           </div>
+        </div>
 
       </section>
 
@@ -112,7 +113,7 @@
 
         <h1 class="text-center">Skills</h1>
 
-        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic">
             <li class="list-group-item newactive">
               <div class="md-v-line"></div><i class="fas fa-code mr-2 pr-3"></i>Languages
             </li>
@@ -136,7 +137,7 @@
             </li>
         </ul>
         <br />
-        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic">
             <li class="list-group-item newactive">
               <div class="md-v-line"></div><i class="fas fa-code mr-2 pr-3"></i>Frameworks
             </li>
@@ -160,7 +161,7 @@
             </li>
         </ul>
         <br />
-        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <ul class="list-group" data-aos="flip-left" data-aos-easing="ease-out-cubic">
             <li class="list-group-item newactive">
               <div class="md-v-line"></div><i class="fas fa-code mr-2 pr-3"></i>My Toolkit
             </li>
@@ -189,11 +190,11 @@
     <!----------------------------------------------------------------------------->
 
       <!-- Projects section -->
-      <section id="projects" style="margin-bottom:50px">
+      <section id="projects" class="container" style="margin-bottom:50px">
 
         <h1 class="text-center">My Projects</h1>
 
-        <div class="container" data-aos="fade-right" data-aos-duration="3000">
+        <div data-aos="fade-right">
           <div class="row"> <!-- Start first row -->
             <div class="col d-flex justify-content-center">
               <div class="card" style="width:500px">
@@ -255,9 +256,8 @@
     <!----------------------------------------------------------------------------->
 
       <!-- Contact info section -->
-      <section id="contactme">
+      <section id="contactme" class="container">
 
-        <div class="container">
           <!-- Jumbotron -->
           <div class="jumbotron text-center">
 
@@ -287,7 +287,6 @@
             <a class="fa-2x p-2 m-2 fb-ic" href="https://www.github.com/Lee7b" target="_blank"><i class="fab fa-github grey-text"></i></a>
           </div>
           <!-- Jumbotron -->
-        </div>
 
       </section>
 
@@ -295,16 +294,19 @@
 
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
+    <!-- Popper -->
     <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- TypeWriter -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <!-- Get patch fixes within a minor version -->
+    <!-- Smooth Scroll -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Personal js -->
     <script src="js/main.js"></script>
   </body>
 </html>

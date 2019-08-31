@@ -1,4 +1,7 @@
-AOS.init();
+AOS.init({
+	duration : 2000,
+	once : true,
+})
 
 // $(function() {
 // 	$(".loading-wrapper").fadeOut(5000);
@@ -14,5 +17,3 @@ var typewriter = new Typewriter(myname, {
 	autoStart: true,
 	loop: true,
 });
-
-$('body').scrollspy({ target: '#navbarNav' })
