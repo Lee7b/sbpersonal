@@ -10,7 +10,9 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 
 var myname = document.getElementById('myname');
 var typewriter = new Typewriter(myname, {
-	strings: ['Hello', "I'm Sam Burkett", 'I love coding!'],
+	strings: ['Hello', "I'm Sam Burkett", 'I create things.'],
 	autoStart: true,
 	loop: true,
 });
+
+$('body').scrollspy({ target: '#navbarNav' })
