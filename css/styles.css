@@ -3,13 +3,9 @@
 }
 
 .top-nav-collapse {
-    background-color: rgb(49, 47, 47);
+	/* background-color: rgb(49, 47, 47); */
+	background-color: #062f4f;
 }
-
-/* body {
-	overflow-x: hidden;
-	max-width: 100vw;
-} */
 
 /* Styling for the header video */
 header {
@@ -54,21 +50,33 @@ header {
 
 /* Styling for About section */
   #about {
+	  background-color: #364a61;
 	  color: white;
-	  font-family: 'Open Sans', sans-serif;
+	  font-family: 'Nunito', 'Manjari', sans-serif;
   }
 
   #about p {
-	  font-size: 15px;
+	  font-size: 16px;
   }
 
 /* Styling for skills section */
-  .list-group-item.newactive{
-	background-color: rgb(49, 47, 47);
+#skills .list-group-item.newactive{
+	/* background-color: rgb(49, 47, 47); */
+	background-color: #b82601;
 	color: white;
 }
 
 /* Styling for projects section */
+#projects .card-header-color {
+	background-color: #b82601;
+	color: white;
+}
+
+#projects .btn-color {
+	background-color: #062f4f;
+	color: white;
+}
+
 #projects .col {
 	padding: 1rem;
 }
