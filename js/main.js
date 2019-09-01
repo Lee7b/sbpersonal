@@ -11,7 +11,7 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 300
 });
 
-var myname = document.getElementById('myname');
+var myname = document.getElementById('typewriter');
 var typewriter = new Typewriter(myname, {
 	strings: ['Hello', "I'm Sam Burkett", 'I create things.'],
 	autoStart: true,
